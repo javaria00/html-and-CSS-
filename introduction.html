@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/css/project/intro.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction</title>
+<style>
+    .frame-6-37j {
+  align-items: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 4rem 0rem 1.8rem 0rem;
+  position: relative;
+  width: 100%;
+    }
+
+  .hospital-management-system-1im {
+    color: #000000;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    margin: 0rem 0.4rem 1.1rem 0rem;
+    white-space: nowrap;
+  }
+  .line-8-4S9 {
+    background-color: #000000;
+    flex-shrink: 0;
+    height: 0.1rem;
+    margin-bottom: 1.2rem;
+    width: 100%;
+  }
+  .rectangle-40-avH {
+    flex-shrink: 0;
+    height: 52.3rem;
+    margin-right: 1.7rem;
+    object-fit: cover;
+    vertical-align: top;
+    width: 94.2rem;
+  }
+</style></head>
+
+<body>
+    <div class="frame-6-37j" id="7:11">
+        <p class="hospital-management-system-1im" id="7:17">HOSPITAL MANAGEMENT SYSTEM</p>
+        <div class="line-8-4S9" id="7:16"></div>
+        <img class="rectangle-40-avH" src="./introduction_files/maxresdefault.jpg" id="12:64">
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
